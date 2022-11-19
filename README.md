@@ -14,8 +14,8 @@ The architecture used for this challenge was constructed mainly on CNNs, batch n
 
 ### Evaluating the results
 
-To evaluate the results, we used a Confusion Matrix, a Classification report and plotted the evolution of Accuracy and Validation_accuracy through the epochs of training. The results yielded by the training showed a clear sign that the model was learning the weights slowly but did not overfit. As our main objective was to evaluate the predictions based on F1-Score, the classification report provided us with the value of .
+To evaluate the results, we used a Confusion Matrix, a Classification report and plotted the evolution of Accuracy and Validation_accuracy through the epochs of training. The results yielded by the training showed a clear sign that the model was learning the weights slowly but did not overfit. As our main objective was to evaluate the predictions based on F1-Score, the classification report provided us with a small value. On of the key elements that needed to be addressed is the imbalance between classes.
 
 ### Conclusion
 
-The results were submitted in both formats, csv and json. For the seek of learning, different architectures could have been used for this project, like VGG16 for instance. However, it was worth the trial to use a homemade neural network which brought impressive results. 
+The results were submitted in both formats, csv and json. For the seek of learning, different architectures could have been used for this project, like VGG16 for instance. However, it was worth the trial to use a homemade neural network.
